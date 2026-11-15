@@ -5,6 +5,7 @@ variable "PubSubnet" {
 variable "AZone" {
     type = list(string)
 }
-variable "PrivSubnet" {
+variable "PvtSubnet" {
     type = list(string)
 }
+variable "anywhere_cidr" {}

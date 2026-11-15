@@ -26,7 +26,8 @@ module "vpc"{
     vpc_cidr = var.vpc-cidr
     PubSubnet = var.PubSubnet
     AZone = var.AZone
-    PrivSubnet = var.PrivSubnet
+    PvtSubnet = var.PvtSubnet
+    anywhere_cidr = var.anywhere_cidr
 
 }
 
